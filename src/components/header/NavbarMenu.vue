@@ -4,6 +4,9 @@ import BaseSelection from './BaseSelection.vue'
 export default {
     components: {
         BaseSelection
+    },
+    props: {
+        headerOptions: Object
     }
 }
 </script>
@@ -14,7 +17,7 @@ export default {
             <div class="logo"><img src="../../assets/images/shop_logo/classic_shop_logo1x.png" alt="Website Logo"></div>
             <div class="menu-list d-flex align-items-center">
                 <ul class="menu-options d-flex ">
-                    <BaseSelection />
+                    <BaseSelection v-for="option in headerOptions.menuItems" :placeholder="option" />
                 </ul>
                 <button>SHOP NOW!</button>
                 <a href="#" alt="Search Icon">

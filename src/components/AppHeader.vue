@@ -6,13 +6,25 @@ export default {
     components: {
         NavbarMenu,
         NavbarProfile
+    },
+    data() {
+        return {
+            headerOptions: {
+                menuItems: ["Home", "Shop", "Products", "Categories", "News", "Elements"],
+                home: [],
+                shop: [],
+                products: [],
+                categories: [],
+                elements: [],
+            }
+        }
     }
 }
 </script>
 
 <template>
     <NavbarProfile />
-    <NavbarMenu />
+    <NavbarMenu :headerOptions="headerOptions" />
 </template>
 
 <style></style>

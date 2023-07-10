@@ -44,7 +44,7 @@
 }
 
 .icons {
-    color: $gray;
+    color: black;
 }
 
 .profile {

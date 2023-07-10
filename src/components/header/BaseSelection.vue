@@ -1,9 +1,14 @@
-<script></script>
+<script>
+
+export default {
+    props: {
+        placeholder: String
+    }
+}
+</script>
 
 <template>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Home</a></li>
+    <li><a href="#">{{ placeholder }}</a></li>
 </template>
 
 <style lang="scss" scoped>
