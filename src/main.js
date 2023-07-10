@@ -14,9 +14,10 @@ import { faFacebookF} from '@fortawesome/free-brands-svg-icons'
 import { faTwitter} from '@fortawesome/free-brands-svg-icons'
 import { faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faYoutube,faInstagram )
+library.add(faFacebookF, faTwitter, faYoutube,faInstagram, faCartShopping )
 
 createApp(App)
 .component('FontAwesomeIcon', FontAwesomeIcon)
