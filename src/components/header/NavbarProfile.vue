@@ -7,10 +7,18 @@
         <div class="container profile d-flex justify-content-between align-items-center">
             <!-- Social side  -->
             <div class="icons d-flex">
-                <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-                <FontAwesomeIcon icon="fa-brands fa-twitter" />
-                <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                <FontAwesomeIcon icon="fa-brands fa-youtube" />
+                <a href="#">
+                    <FontAwesomeIcon class="icons" icon="fa-brands fa-facebook-f" />
+                </a>
+                <a href="#">
+                    <FontAwesomeIcon class="icons" icon="fa-brands fa-twitter" />
+                </a>
+                <a href="#">
+                    <FontAwesomeIcon class="icons" icon="fa-brands fa-instagram" />
+                </a>
+                <a href="#">
+                    <FontAwesomeIcon class="icons" icon="fa-brands fa-youtube" />
+                </a>
             </div>
             <!-- Actually empty TODO control  -->
             <div><span>Sponsors</span></div>
@@ -20,7 +28,7 @@
                     <li><a href="#">Shopping Cart</a></li>
                     <li class="account"><a href="#">My Account</a></li>
                     <li class="cart"><a href="#">
-                            <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />CART
+                            <FontAwesomeIcon class="icons" icon="fa-solid fa-cart-shopping" />CART
                         </a></li>
                 </ul>
             </div>
@@ -33,6 +41,10 @@
 
 .account {
     border: 1px solid $light-gray;
+}
+
+.icons {
+    color: $gray;
 }
 
 .profile {
