@@ -73,8 +73,4 @@ li {
         color: black;
     }
 }
-
-nav {
-    border-bottom: 1px solid $light-gray;
-}
 </style>

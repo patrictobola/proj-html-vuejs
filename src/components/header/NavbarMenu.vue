@@ -52,4 +52,9 @@ button {
     font-weight: bold;
     margin-right: 40px;
 }
+
+nav {
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+}
 </style>
