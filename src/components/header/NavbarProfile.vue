@@ -59,10 +59,6 @@ a {
 
 }
 
-ul {
-    margin: 0;
-    height: 100%;
-}
 
 li {
     height: 100%;

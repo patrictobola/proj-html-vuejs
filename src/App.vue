@@ -18,8 +18,5 @@ export default {
 
 <style lang="scss">
 @import "./scss/variables";
-
-a {
-  text-decoration: none;
-}
+@import "./scss/style";
 </style>

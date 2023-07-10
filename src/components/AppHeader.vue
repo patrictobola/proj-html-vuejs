@@ -12,6 +12,7 @@ export default {
 
 <template>
     <NavbarProfile />
+    <NavbarMenu />
 </template>
 
 <style></style>
