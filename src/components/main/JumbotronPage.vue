@@ -2,6 +2,15 @@
 
 </script>
 
-<template></template>
+<template>
+    <div class="jumbotron">
 
-<style></style>
+    </div>
+</template>
+
+<style>
+.jumbotron {
+    height: 650px;
+    background: no-repeat center/100% url('../../assets/images/home1_slide_three_bg_2.jpg');
+}
+</style>
