@@ -1,14 +1,21 @@
 <script>
-
+export default {
+    props: {
+        finalPrice: Number,
+        originalPrice: Number,
+        tags: Array,
+        name: String,
+    }
+}
 </script>
 
 <template>
     <div class="text-container">
-        <h6>Black Leather Jacket</h6>
-        <p>Men, Jackets, Jeans</p>
+        <h6>{{ name }}</h6>
+        <p>{{ tags }}</p>
         <span>
-            <del>235€</del>
-            €200
+            <del v-if="originalPrice">${{ originalPrice }}</del>
+            ${{ finalPrice }}
         </span>
     </div>
 </template>

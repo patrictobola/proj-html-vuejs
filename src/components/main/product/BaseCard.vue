@@ -9,14 +9,22 @@ export default {
             const url = new URL(`/src/assets/images/card_models/${image}`, import.meta.url)
             return url.href
         }
+    },
+    props: {
+        imagePath: String,
+        finalPrice: Number,
+        originalPrice: Number,
+        tags: Array,
+        name: String,
+
     }
 }
 </script>
 
 <template>
     <div class="base-card">
-        <img :src="getImagePath('black_elegant_leather_jacket-231x300.jpg')" alt="foto">
-        <InfoCard />
+        <img :src="getImagePath(imagePath)" alt="foto">
+        <InfoCard :name="name" :tags="tags" :originalPrice="originalPrice" :finalPrice="finalPrice" />
     </div>
 </template>
 
@@ -27,6 +35,7 @@ export default {
 
 img {
     object-fit: cover;
+    width: 100%;
 
 }
 </style>

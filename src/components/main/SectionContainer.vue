@@ -1,6 +1,10 @@
 <script>
 import BaseCard from './product/BaseCard.vue'
+import { store } from '../../data/store';
 export default {
+    data() {
+        return store
+    },
     components: {
         BaseCard
     }
@@ -14,7 +18,8 @@ export default {
         <a href="#">Accessories</a>
     </div>
     <div class="card-container d-flex justify-content-center">
-        <BaseCard />
+        <BaseCard v-for="product in products.men" :imagePath="product.imagePath" :finalPrice="product.finalPrice"
+            :originalPrice="product.originalPrice" :tags="product.tags" :name="product.name" />
     </div>
 </template>
 
