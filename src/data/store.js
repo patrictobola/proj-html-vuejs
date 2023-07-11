@@ -31,5 +31,22 @@ export const store = reactive({
                 finalPrice: 96
             }
         }
+    },
+    collection: {
+        winter: {
+            imagePath: 'winter_collection_bg.jpg',
+            text: 'Winter Collection',
+            description: 'STYLISH AND WARM'
+        },
+        spring: {
+            imagePath: 'spring_collection_bg.jpg',
+            text: 'Spring Collection',
+            description: 'BRIGHT AND COLORFUL'
+        },
+        autumn: {
+            imagePath: 'autumn_collection_bg.jpg',
+            text: 'Autumn Collection',
+            description: 'RICH AND COMFORTABLE'
+        },
     }
 })
