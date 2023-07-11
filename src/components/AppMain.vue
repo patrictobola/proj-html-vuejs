@@ -22,9 +22,12 @@ export default {
     <SectionTitle :title="`Featured Products`" :description="`Must have products from our top sellers`" />
     <SectionContainer />
     <SectionCollection />
+
     <SectionTitle :title="`Best Seller`" :description="`Must have products from our top sellers`" />
     <SectionBestseller />
     <SectionOffers />
+
+    <SectionTitle :title="`New Arrivals`" :description="`Brand new products from top designers`" />
 </template>
 
 <style></style>
