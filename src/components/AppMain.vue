@@ -1,14 +1,16 @@
 <script>
 import JumbotronPage from './main/JumbotronPage.vue'
-import SectionTitle from './main/SectionTitle.vue'
-import SectionContainer from './main/SectionContainer.vue';
-import SectionCollection from './main/SectionCollection.vue';
+import SectionTitle from './main/sections/SectionTitle.vue'
+import SectionContainer from './main/sections/SectionContainer.vue';
+import SectionCollection from './main/sections/SectionCollection.vue';
+import SectionBestseller from './main/sections/SectionBestseller.vue';
 export default {
     components: {
         JumbotronPage,
         SectionTitle,
         SectionContainer,
         SectionCollection,
+        SectionBestseller,
     }
 }
 </script>
@@ -18,6 +20,8 @@ export default {
     <SectionTitle :title="`Featured Products`" :description="`Must have products from our top sellers`" />
     <SectionContainer />
     <SectionCollection />
+    <SectionTitle :title="`Best Seller`" :description="`Must have products from our top sellers`" />
+    <SectionBestseller />
 </template>
 
 <style></style>

@@ -1,6 +1,6 @@
 <script>
-import { store } from '../../data/store';
-import CollectionCard from './CollectionCard.vue';
+import { store } from '../../../data/store'
+import CollectionCard from '../CollectionCard.vue';
 export default {
     components: {
         CollectionCard
@@ -23,7 +23,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../../scss/variables';
+@import '../../../scss/variables';
 
 .collection-container {
     height: 500px;

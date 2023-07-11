@@ -1,6 +1,6 @@
 <script>
-import BaseCard from './product/BaseCard.vue'
-import { store } from '../../data/store';
+import BaseCard from '../product/BaseCard.vue'
+import { store } from '../../../data/store';
 export default {
     data() {
         return store
