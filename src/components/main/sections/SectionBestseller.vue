@@ -1,13 +1,21 @@
 <script>
+import BaseCarousel from '../carousel/BaseCarousel.vue'
 export default {
+    components: {
+        BaseCarousel,
+    },
 
 }
 </script>
 
 <template>
-    <section>
-
+    <section class="d-flex justify-content-center">
+        <BaseCarousel />
     </section>
 </template>
 
-<style></style>
+<style scoped>
+section {
+    margin-bottom: 100px;
+}
+</style>

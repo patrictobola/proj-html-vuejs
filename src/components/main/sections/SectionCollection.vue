@@ -22,10 +22,4 @@ export default {
     </div>
 </template>
 
-<style lang="scss" scoped>
-@import '../../../scss/variables';
-
-.collection-container {
-    height: 500px;
-}
-</style>
+<style scoped></style>

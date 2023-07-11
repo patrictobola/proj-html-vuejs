@@ -24,7 +24,7 @@ export default {
 <template>
     <div class="base-card">
         <img :src="getImagePath(imagePath)" alt="foto">
-        <InfoCard :name="name" :tags="tags" :originalPrice="originalPrice" :finalPrice="finalPrice" />
+        <InfoCard v-if="name" :name="name" :tags="tags" :originalPrice="originalPrice" :finalPrice="finalPrice" />
     </div>
 </template>
 
