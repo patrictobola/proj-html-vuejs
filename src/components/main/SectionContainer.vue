@@ -27,7 +27,7 @@ a {
 }
 
 .button-container {
-    border-radius: 3px;
+    /* border-radius: 3px; */
     margin-bottom: 50px;
 }
 

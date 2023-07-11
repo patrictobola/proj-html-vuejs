@@ -8,14 +8,14 @@ export default {
 </script>
 
 <template>
-    <div class="card">
+    <div class="base-card">
         <img src="../../../assets/images/card_models/black_elegant_leather_jacket-231x300.jpg" alt="">
         <InfoCard />
     </div>
 </template>
 
 <style scoped>
-.card {
+.base-card {
     width: 231px;
 }
 
