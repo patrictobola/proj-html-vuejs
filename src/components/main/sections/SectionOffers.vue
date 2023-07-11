@@ -16,8 +16,8 @@ export default {
 <template>
     <section>
         <div class="container h-100 d-flex justify-content-center align-items-center">
-            <OffersCard v-for="offer in store.websiteOffers" :offerTitle="offer.offerTitle"
-                :description="offer.description" />
+            <OffersCard v-for="offer in store.websiteOffers" :offerTitle="offer.offerTitle" :description="offer.description"
+                :imagePath="offer.imagePath" />
 
 
         </div>

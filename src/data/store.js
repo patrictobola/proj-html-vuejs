@@ -85,10 +85,12 @@ export const store = reactive({
     websiteOffers: {
         discount: {
             offerTitle: '70% Off',
+            imagePath: 'promo_box_1_bg.jpg',
             description: 'Un bel settanta percento di sconto giusto per riempire la casella' 
         },
         shipping: {
             offerTitle: 'Free Shipping',
+            imagePath: 'promo_box_2_bg.jpg',
             description: 'Vogliamo parlare della spedizione gratuita giusto per riempire la casella?' 
         }
     }

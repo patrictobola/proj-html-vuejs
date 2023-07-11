@@ -3,13 +3,20 @@ export default {
     props: {
         offerTitle: String,
         description: String,
-    }
+        imagePath: String
+    },
+    methods: {
+        getImagePath(image) {
+            const url = new URL(`/src/assets/images/website_promos/${image}`, import.meta.url)
+            return url.href
+        }
+    },
 }
 
 </script>
 <template>
     <div class="offer-card px-3 h-75 ">
-        <img src="../../../assets/images/website_promos/promo_box_1_bg.jpg" alt="">
+        <img :src="getImagePath(imagePath)" :alt="offerTitle">
         <div class="text-wrapper w-50">
             <h1>{{ offerTitle }}</h1>
             <p>{{ description }}</p>
