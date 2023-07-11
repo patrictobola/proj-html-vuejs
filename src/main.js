@@ -2,6 +2,14 @@ import { createApp } from 'vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App.vue'
 
+// FontSource 
+import "@fontsource/roboto"
+import "@fontsource/roboto/100.css"
+import "@fontsource/roboto/300.css"
+import "@fontsource/roboto/500.css"
+import "@fontsource/roboto/700.css"
+import "@fontsource/roboto/900.css"
+
 // Fontawesome 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
