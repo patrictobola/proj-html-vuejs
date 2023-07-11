@@ -1,5 +1,10 @@
 <script>
-
+import BaseCard from './product/BaseCard.vue'
+export default {
+    components: {
+        BaseCard
+    }
+}
 </script>
 
 <template>
@@ -7,6 +12,9 @@
         <a href="#">Men</a>
         <a href="#">Women</a>
         <a href="#">Accessories</a>
+    </div>
+    <div class="card-container d-flex justify-content-center">
+        <BaseCard />
     </div>
 </template>
 
@@ -20,5 +28,8 @@ a {
 
 .button-container {
     border-radius: 3px;
+    margin-bottom: 50px;
 }
+
+/* .card-container {} */
 </style>
