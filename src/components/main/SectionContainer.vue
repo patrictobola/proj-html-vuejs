@@ -12,15 +12,17 @@ export default {
 </script>
 
 <template>
-    <div class="button-container text-center">
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Accessories</a>
-    </div>
-    <div class="card-container d-flex justify-content-center">
-        <BaseCard v-for="product in products.men" :imagePath="product.imagePath" :finalPrice="product.finalPrice"
-            :originalPrice="product.originalPrice" :tags="product.tags" :name="product.name" />
-    </div>
+    <section>
+        <div class="button-container text-center">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Accessories</a>
+        </div>
+        <div class="card-container d-flex justify-content-center">
+            <BaseCard v-for="product in products.men" :imagePath="product.imagePath" :finalPrice="product.finalPrice"
+                :originalPrice="product.originalPrice" :tags="product.tags" :name="product.name" />
+        </div>
+    </section>
 </template>
 
 <style scoped>
@@ -36,5 +38,7 @@ a {
     margin-bottom: 50px;
 }
 
-/* .card-container {} */
+section {
+    margin-bottom: 100px;
+}
 </style>

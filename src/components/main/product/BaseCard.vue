@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .base-card {
-    width: 231px;
+    width: 291px;
 }
 
 img {
