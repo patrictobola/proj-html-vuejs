@@ -10,7 +10,9 @@ export default {
 
 <template>
     <section class="d-flex justify-content-center">
-        <BaseCarousel />
+        <div class="container">
+            <BaseCarousel />
+        </div>
     </section>
 </template>
 
