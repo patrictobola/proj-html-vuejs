@@ -81,5 +81,15 @@ export const store = reactive({
             tags: ['T-Shirts', 'Women'],
             finalPrice: 57
         },
+    },
+    websiteOffers: {
+        discount: {
+            offerTitle: '70% Off',
+            description: 'Un bel settanta percento di sconto giusto per riempire la casella' 
+        },
+        shipping: {
+            offerTitle: 'Free Shipping',
+            description: 'Vogliamo parlare della spedizione gratuita giusto per riempire la casella?' 
+        }
     }
 })
