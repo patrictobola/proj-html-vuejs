@@ -27,6 +27,6 @@ export default {
 <style scoped>
 section {
     height: 500px;
-    background-color: lightblue;
+    background: no-repeat center/100% url(../../../assets/images/bkgd_confetti-compressor.jpg);
 }
 </style>
