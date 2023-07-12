@@ -25,12 +25,18 @@ export default {
     </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../../../scss/variables';
+
 a {
     font-weight: bold;
     padding: 10px 30px;
-    background: gainsboro;
-    border: 1px solid gray;
+    background: transparent;
+    border: 1px solid $light-gray;
+
+    &:hover {
+        background-color: $light-gray;
+    }
 }
 
 .button-container {
