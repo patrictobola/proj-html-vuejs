@@ -49,5 +49,9 @@ a {
     padding: 15px 50px;
     font-weight: bold;
     background-color: rgba($color: #fff, $alpha: 0.2);
+
+    &:hover {
+        background-color: rgba($color: pink, $alpha: .8)
+    }
 }
 </style>

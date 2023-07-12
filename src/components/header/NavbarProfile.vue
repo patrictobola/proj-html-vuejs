@@ -45,6 +45,10 @@
 
 .icons {
     color: black;
+
+    &:hover {
+        color: $blue
+    }
 }
 
 .profile {
@@ -57,6 +61,9 @@ a {
     line-height: 40px;
     display: block;
 
+    &:hover {
+        color: $blue;
+    }
 }
 
 
@@ -71,6 +78,10 @@ li {
 
     >a {
         color: black;
+
+        &:hover {
+            color: $blue;
+        }
     }
 }
 </style>

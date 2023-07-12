@@ -14,7 +14,8 @@ export default {
 <template>
     <nav>
         <div class="menu container d-flex align-items-center justify-content-between">
-            <div class="logo"><img src="../../assets/images/shop_logo/classic_shop_logo1x.png" alt="Website Logo"></div>
+            <div class="logo"><a href="#"><img src="../../assets/images/shop_logo/classic_shop_logo1x.png"
+                        alt="Website Logo"></a></div>
             <div class="menu-list d-flex align-items-center">
                 <ul class="menu-options d-flex ">
                     <BaseSelection v-for="option in headerOptions.menuItems" :placeholder="option" />

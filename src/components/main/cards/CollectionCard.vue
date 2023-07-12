@@ -58,5 +58,9 @@ a {
     border-radius: 30px;
     padding: 10px 20px;
 
+    &:hover {
+        background-color: rgba($color: pink, $alpha: .8)
+    }
+
 }
 </style>

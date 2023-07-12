@@ -52,6 +52,10 @@ ul {
     font-size: 0.9rem;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 li {
     margin: 0;
 }

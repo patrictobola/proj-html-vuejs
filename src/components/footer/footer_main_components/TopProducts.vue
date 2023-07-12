@@ -57,6 +57,10 @@ li {
     color: $white;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 .vote {
     color: $blue;
 }

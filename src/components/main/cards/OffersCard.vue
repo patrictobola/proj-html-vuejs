@@ -49,5 +49,9 @@ a {
     border-radius: 30px;
     padding: 10px 20px;
     display: inline-block;
+
+    &:hover {
+        background-color: rgba($color: pink, $alpha: .6)
+    }
 }
 </style>

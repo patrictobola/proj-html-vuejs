@@ -2,7 +2,6 @@
 <template>
     <section>
         <div class="h-100 container d-flex justify-content-evenly align-items-center">
-            <div>Mail icon</div>
             <div>
                 <h1>Subscribe now and get special offers</h1>
             </div>
