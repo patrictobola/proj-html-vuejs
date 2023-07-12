@@ -14,8 +14,9 @@ export default {
 </script>
 <template>
     <section class="container">
-        <div class="row">
-            <ListStore />
+        <div class="row my-5">
+            <ListStore v-for="section in store.webStore" :webStore="section" />
+
         </div>
     </section>
 </template>

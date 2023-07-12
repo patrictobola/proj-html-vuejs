@@ -118,5 +118,102 @@ export const store = reactive({
                 post: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus suscipit placeat corporis?'
             },
         ]
+    },
+    webStore: {
+        featured: {
+            name: 'FEATURED',
+            items: {
+                blackJacket: {
+                    imagePath: 'card_models/black_leather_jacket-120x156.jpg',
+                    itemName: 'Black Jacket',
+                    finalPrice: 125,
+                },
+                blackLeather: {
+                    imagePath: 'card_models/black_elegant_leather_jacket-120x156.jpg',
+                    itemName: 'Black Leather Jacket',
+                    vote: 5,
+                    originalPrice: 235,
+                    finalPrice: 200,
+                },
+                hipsterTop: {
+                    imagePath: 'card_models/hipster_black_top-120x156.jpg',
+                    itemName: 'Hipster Black Top',
+                    finalPrice: 57,
+                }
+            }
+        },
+        onSale: {
+            name: 'ON SALE',
+            items: {
+                blackLeather: {
+                    itemName: 'Black Leather Jacket',
+                    imagePath: 'card_models/black_elegant_leather_jacket-120x156.jpg',
+                    vote: 5,
+                    originalPrice: 235,
+                    finalPrice: 200,
+                },
+                blueJacket: {
+                    itemName: 'Blue Leather Jacket',
+                    imagePath: 'card_models/blue_leather_jacket-120x156.jpg',
+                    originalPrice: 80,
+                    finalPrice: 60,
+                },
+                modernBoots: {
+                    itemName: 'Modern Leather Boots',
+                    imagePath: 'products/brown_dress_shoes-200x260.jpg',
+                    originalPrice: 50,
+                    finalPrice: 30,
+                }
+            }
+        },
+        topRated: {
+            name: 'TOP RATED',
+            items: {
+                leatherGloves: {
+                    itemName: 'Leather Gloves',
+                    imagePath: 'products/leather_gloves-120x156.jpg',
+                    vote: 5,
+                    finalPrice: 45,
+                },
+                blackLeather: {
+                    itemName: 'Black Leather Jacket',
+                    imagePath: 'card_models/black_elegant_leather_jacket-120x156.jpg',
+                    vote: 5,
+                    originalPrice: 235,
+                    finalPrice: 200,
+                },
+                springDress: {
+                    itemName: 'Spring Printed Dress',
+                    imagePath: 'card_models/spring_printed_dress-120x156.jpg',
+                    vote: 5,
+                    finalPrice: 47,
+                }
+            }
+        },
+        latestReviews: {
+            name: 'LATEST REVIEWS',
+            items: {
+                blackLeather: {
+                    itemName: 'Black Leather Jacket',
+                    imagePath: 'card_models/black_elegant_leather_jacket-120x156.jpg',
+                    vote: 5,
+                    originalPrice: 235,
+                    finalPrice: 200,
+                },
+                leatherGloves: {
+                    itemName: 'Leather Gloves',
+                    imagePath: 'products/leather_gloves-120x156.jpg',
+                    vote: 5,
+                    finalPrice: 45,
+                },
+                springDress: {
+                    itemName: 'Spring Printed Dress',
+                    imagePath: 'card_models/spring_printed_dress-120x156.jpg',
+                    vote: 5,
+                    finalPrice: 47,
+                }
+            }
+        },
+
     }
 })
