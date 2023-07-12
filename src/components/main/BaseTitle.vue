@@ -21,7 +21,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../../../scss/variables';
+@import '../../scss/variables';
 
 .title-container {
     height: 200px;

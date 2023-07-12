@@ -1,39 +1,44 @@
 <script>
 import JumbotronPage from './main/JumbotronPage.vue'
-import SectionTitle from './main/sections/SectionTitle.vue'
+import BaseTitle from './main/BaseTitle.vue'
 import SectionContainer from './main/sections/SectionContainer.vue';
 import SectionCollection from './main/sections/SectionCollection.vue';
 import SectionBestseller from './main/sections/SectionBestseller.vue';
 import SectionOffers from './main/sections/SectionOffers.vue';
 import SectionArrivals from './main/sections/SectionArrivals.vue';
-import SectionTestimonial from './main/sections/SectionTestimonial.vue'
+import SectionTestimonial from './main/sections/SectionTestimonial.vue';
+import SectionBlog from './main/sections/SectionBlog.vue'
 export default {
     components: {
         JumbotronPage,
-        SectionTitle,
+        BaseTitle,
         SectionContainer,
         SectionCollection,
         SectionBestseller,
         SectionOffers,
         SectionArrivals,
         SectionTestimonial,
+        SectionBlog,
     }
 }
 </script>
 
 <template>
     <JumbotronPage />
-    <SectionTitle :title="`Featured Products`" :description="`Must have products from our top sellers`" />
+    <BaseTitle :title="`Featured Products`" :description="`Must have products from our top sellers`" />
     <SectionContainer />
     <SectionCollection />
 
-    <SectionTitle :title="`Best Seller`" :description="`Must have products from our top sellers`" />
+    <BaseTitle :title="`Best Seller`" :description="`Must have products from our top sellers`" />
     <SectionBestseller />
     <SectionOffers />
 
-    <SectionTitle :title="`New Arrivals`" :description="`Brand new products from top designers`" />
+    <BaseTitle :title="`New Arrivals`" :description="`Brand new products from top designers`" />
     <SectionArrivals />
     <SectionTestimonial />
+
+    <BaseTitle :title="`From Our Blog`" :description="`The latest Classic Shop news`" />
+    <SectionBlog />
 </template>
 
 <style></style>
