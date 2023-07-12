@@ -93,5 +93,30 @@ export const store = reactive({
             imagePath: 'promo_box_2_bg.jpg',
             description: 'Vogliamo parlare della spedizione gratuita giusto per riempire la casella?' 
         }
+    },
+    blog: {
+        articles: [
+            {
+                imagePath: 'post_img_12-700x441.jpg',
+                titleText: 'Questo è un titolo dinamico',
+                date: 'July 12th, 2023',
+                comments: 'n Comments',
+                post: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus suscipit placeat corporis?'
+            },
+            {
+                imagePath: 'post_img_11-700x441.jpg',
+                titleText: 'Questo è un titolo dinamico',
+                date: 'July 12th, 2023',
+                comments: 'n Comments',
+                post: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus suscipit placeat corporis?'
+            },
+            {
+                imagePath: 'post_img_10-700x441.jpg',
+                titleText: 'Questo è un titolo dinamico',
+                date: 'July 12th, 2023',
+                comments: 'n Comments',
+                post: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus suscipit placeat corporis?'
+            },
+        ]
     }
 })
