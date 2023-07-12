@@ -1,12 +1,12 @@
 <script>
-import BaseCard from '../cards/BaseCard.vue'
+import ProductCard from '../cards/ProductCard.vue'
 import { store } from '../../../data/store';
 export default {
     data() {
         return store
     },
     components: {
-        BaseCard
+        ProductCard
     }
 }
 </script>
@@ -19,8 +19,9 @@ export default {
             <a href="#">Accessories</a>
         </div>
         <div class="card-container d-flex justify-content-center">
-            <BaseCard v-for="product in products.men" :imagePath="product.imagePath" :finalPrice="product.finalPrice"
-                :originalPrice="product.originalPrice" :tags="product.tags" :name="product.name" />
+            <ProductCard v-for="product in products.men" :key="product.name" :imagePath="product.imagePath"
+                :finalPrice="product.finalPrice" :originalPrice="product.originalPrice" :tags="product.tags"
+                :name="product.name" />
         </div>
     </section>
 </template>

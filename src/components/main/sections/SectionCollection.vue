@@ -17,8 +17,8 @@ export default {
 
 <template>
     <div class="collection-container d-flex">
-        <CollectionCard v-for="collection in store.collection" :imagePath="collection.imagePath" :text="collection.text"
-            :description="collection.text" />
+        <CollectionCard v-for="collection in store.collection" :key="collection.text" :imagePath="collection.imagePath"
+            :text="collection.text" :description="collection.text" />
     </div>
 </template>
 
