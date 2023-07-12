@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="carousel d-flex">
+    <div class="carousel d-flex justify-content-center mb-5">
         <BaseCard v-for="product in store.bestSellers" :imagePath="product.imagePath" />
 
     </div>

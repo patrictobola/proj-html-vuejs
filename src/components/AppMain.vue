@@ -4,8 +4,9 @@ import SectionTitle from './main/sections/SectionTitle.vue'
 import SectionContainer from './main/sections/SectionContainer.vue';
 import SectionCollection from './main/sections/SectionCollection.vue';
 import SectionBestseller from './main/sections/SectionBestseller.vue';
-import SectionOffers from './main/sections/SectionOffers.vue'
-import SectionArrivals from './main/sections/SectionArrivals.vue'
+import SectionOffers from './main/sections/SectionOffers.vue';
+import SectionArrivals from './main/sections/SectionArrivals.vue';
+import SectionTestimonial from './main/sections/SectionTestimonial.vue'
 export default {
     components: {
         JumbotronPage,
@@ -15,6 +16,7 @@ export default {
         SectionBestseller,
         SectionOffers,
         SectionArrivals,
+        SectionTestimonial,
     }
 }
 </script>
@@ -31,6 +33,7 @@ export default {
 
     <SectionTitle :title="`New Arrivals`" :description="`Brand new products from top designers`" />
     <SectionArrivals />
+    <SectionTestimonial />
 </template>
 
 <style></style>

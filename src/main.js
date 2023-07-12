@@ -19,11 +19,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faFacebookF, faTwitter, faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons'
-import { faCartShopping} from '@fortawesome/free-solid-svg-icons'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faMagnifyingGlass, faCircle as fasCircle} from '@fortawesome/free-solid-svg-icons'
+import { faCircle as farCircle } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faYoutube,faInstagram, faCartShopping, faMagnifyingGlass )
+library.add(faFacebookF, faTwitter, faYoutube,faInstagram, faCartShopping, faMagnifyingGlass, fasCircle, farCircle )
 
 createApp(App)
 .component('FontAwesomeIcon', FontAwesomeIcon)
