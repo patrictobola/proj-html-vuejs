@@ -1,6 +1,6 @@
 <script>
 import { store } from '../../../data/store'
-import CollectionCard from '../CollectionCard.vue';
+import CollectionCard from '../cards/CollectionCard.vue';
 export default {
     components: {
         CollectionCard

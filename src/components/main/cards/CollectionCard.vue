@@ -26,7 +26,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../../scss/variables';
+@import '../../../scss/variables';
 
 .collection-card {
     height: calc(100vw / 3);

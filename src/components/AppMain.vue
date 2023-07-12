@@ -9,6 +9,7 @@ import SectionArrivals from './main/sections/SectionArrivals.vue';
 import SectionTestimonial from './main/sections/SectionTestimonial.vue';
 import SectionBlog from './main/sections/SectionBlog.vue'
 import SectionStore from './main/sections/SectionStore.vue'
+import SectionBrands from './main/sections/SectionBrands.vue'
 export default {
     components: {
         JumbotronPage,
@@ -21,6 +22,7 @@ export default {
         SectionTestimonial,
         SectionBlog,
         SectionStore,
+        SectionBrands,
     }
 }
 </script>
@@ -42,6 +44,7 @@ export default {
     <BaseTitle :title="`From Our Blog`" :description="`The latest Classic Shop news`" />
     <SectionBlog />
     <SectionStore />
+    <SectionBrands />
 </template>
 
 <style></style>

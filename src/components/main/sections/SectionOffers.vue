@@ -1,6 +1,6 @@
 <script>
 import { store } from '../../../data/store';
-import OffersCard from '../offers/OffersCard.vue';
+import OffersCard from '../cards/OffersCard.vue';
 export default {
     components: {
         OffersCard,

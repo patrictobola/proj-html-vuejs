@@ -215,5 +215,28 @@ export const store = reactive({
             }
         },
 
+    },
+    logos: {
+        authentic: {
+            path: 'b_logotype_6.png',
+            name: 'Authentic'
+        },
+        yard: {
+            path: 'b_logotype_7.png',
+            name: 'The Yard'
+        },
+        forest: {
+            path: 'b_logotype_1.png',
+            name: 'Forest'
+        },
+        badge: {
+            path: 'b_logotype_2.png',
+            name: 'Badge'
+        },
+        beardFashion: {
+            path: 'b_logotype_3.png',
+            name: 'Beard Fashion'
+        },
+
     }
 })

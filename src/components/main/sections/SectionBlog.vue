@@ -1,5 +1,5 @@
 <script>
-import BlogCard from '../blog/BlogCard.vue';
+import BlogCard from '../cards/BlogCard.vue';
 import { store } from '../../../data/store'
 export default {
     components: {

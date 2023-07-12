@@ -1,5 +1,5 @@
 <script>
-import BaseCard from '../product/BaseCard.vue'
+import BaseCard from '../cards/BaseCard.vue'
 import { store } from '../../../data/store';
 export default {
     data() {
