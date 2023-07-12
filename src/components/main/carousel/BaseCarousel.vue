@@ -1,9 +1,9 @@
 <script>
-import BaseCard from '../cards/BaseCard.vue';
+import BestsellerCard from '../cards/BestsellerCard.vue';
 import { store } from '../../../data/store';
 export default {
     components: {
-        BaseCard
+        BestsellerCard
     },
     data() {
         return { store }
@@ -13,7 +13,8 @@ export default {
 
 <template>
     <div class="carousel d-flex justify-content-center mb-5">
-        <BaseCard v-for="product in store.bestSellers" :imagePath="product.imagePath" />
+        <BestsellerCard v-for="product in store.bestSellers" :imagePath="product.imagePath" :finalPrice="product.finalPrice"
+            :name="product.name" :tags="product.tags" />
 
     </div>
 </template>
