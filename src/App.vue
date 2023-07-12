@@ -15,6 +15,7 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
+  <AppFooter />
 </template>
 
 <style lang="scss">

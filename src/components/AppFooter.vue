@@ -1,7 +1,18 @@
 <script>
-
+import SubscribeNow from './footer/SubscribeNow.vue';
+export default {
+    components: {
+        SubscribeNow,
+    }
+}
 </script>
 
-<template></template>
+<template>
+    <SubscribeNow />
+</template>
 
 <style></style>
+
+
+
+<!-- #2b2e32  -->
