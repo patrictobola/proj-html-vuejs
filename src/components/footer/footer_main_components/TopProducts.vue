@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-3">
+    <div class="col-3 h-75">
         <ul>
             <li class="title">
                 <h5>{{ webStore.name }}</h5>
