@@ -238,5 +238,95 @@ export const store = reactive({
             name: 'Beard Fashion'
         },
 
+    },
+    tags: {
+        black: {
+            name: 'Black',
+            id: 1
+        },
+        boots: {
+            name: 'Boots',
+            id: 2
+        },
+        brown: {
+            name: 'Brown',
+            id: 3
+        },
+        casual: {
+            name: 'Casual',
+            id: 4
+        },
+        d_g: {
+            name: 'D&G',
+            id: 5
+        },
+        fabric: {
+            name: 'Fabric',
+            id: 6
+        },
+        flowers: {
+            name: 'Flowers',
+            id: 7
+        },
+        grey: {
+            name: 'Grey',
+            id: 8
+        },
+        hat: {
+            name: 'Hat',
+            id: 9
+        },
+        hipster: {
+            name: 'Hipster',
+            id: 10
+        },
+        lines: {
+            name: 'Lines',
+            id: 11
+        },
+        multi: {
+            name: 'Multi-Purpose',
+            id: 12
+        },
+        newyork: {
+            name: 'New York',
+            id: 13
+        },
+        outdoors: {
+            name: 'Outdoors',
+            id: 14
+        },
+        red: {
+            name: 'Red',
+            id: 15
+        },
+        responsive: {
+            name: 'Responsive',
+            id: 16
+        },
+        summer: {
+            name: 'Summer',
+            id: 17
+        },
+        sweater: {
+            name: 'Sweater',
+            id: 18
+        },
+        travel: {
+            name: 'Travel',
+            id: 19
+        },
+        warm: {
+            name: 'Warm',
+            id: 20
+        },
+        white: {
+            name: 'White',
+            id: 21
+        },
+        winter: {
+            name: 'Winter',
+            id: 22
+        },
     }
 })
